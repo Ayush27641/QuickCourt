@@ -9,12 +9,12 @@
   "scripts": {
     "dev": "node server.js",
     "start": "node server.js",
-    "build": "prisma generate",
-    "postinstall": "prisma generate",
+    "build": "npx prisma generate",
+    "postinstall": "npx prisma generate",
     "smoke:apis": "node scripts/smoke-apis.js",
-    "prisma:generate": "prisma generate",
-    "prisma:migrate": "prisma migrate dev",
-    "prisma:studio": "prisma studio"
+    "prisma:generate": "npx prisma generate",
+    "prisma:migrate": "npx prisma migrate dev",
+    "prisma:studio": "npx prisma studio"
   },
   "dependencies": {
     "@prisma/client": "^6.14.0",
